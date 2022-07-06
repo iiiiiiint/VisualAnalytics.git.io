@@ -1,0 +1,101 @@
+dependented:
+10248,serde
+40217,serde_json
+11205,log
+8223,clap
+34205,thiserror
+44100,rand
+44976,lazy_static
+13199,tokio
+4005,regex
+45359,chrono
+23217,anyhow
+21151,futures
+9071,mbers
+8321,libc
+40283,reqwest
+27736,serde_derive
+3179,structopt
+50408,url
+11641,env_logger
+26577,toml
+21928,byteorder
+26851,itertools
+36307,bytes
+21194,base64
+43800,num-traits
+392,async-trait
+14788,once_cell
+41557,rayon
+24006,bitflags
+128,failure
+11373,hyper
+49507,quote
+45648,uuid
+35052,sha2
+32908,hex
+2885,parking_lot
+5349,syn
+17155,dirs
+1018,colored
+52263,time
+48317,tempfile
+38944,serde_yaml
+2684,nom
+48642,proc-macro2
+52143,tracing
+6623,atty
+34373,num_cpus
+37043,futures-util
+26324,cfg-if
+2863,walkdir
+11753,http
+32464,image
+38068,version
+22844,flate2
+44564,num
+2679,description
+31128,repository
+52076,bincode
+46667,license
+53166,edition
+5280,strum
+21534,embedded-hal
+16043,smallvec
+34861,members
+13495,embers
+34324,indexmap
+6034,semver
+30005,authors
+49536,nix
+51271,openssl
+25526,crossbeam-channel
+45333,indicatif
+50369,ansi_term
+25907,solver
+31794,error-chain
+4330,keywords
+2187,]
+44651,glob
+11054,async-std
+3569,strum_macros
+32817,csv
+30641,    "config/management/genesis
+27330,    "config/management/operational
+45248,    "config/seed-peer-generator
+29017,    "consensus/safety-rules
+4915,    "execution/db-bootstrapper
+28225,    "storage/backup/backup-cli
+17588,readme
+1148,exclude
+4789,derive_more
+40155,git2
+21527,    "examples/apigateway
+31218,    "examples/apigatewaymanagement
+29439,    "examples/applicationautoscaling
+43078,    "examples/autoscaling
+31119,    "examples/autoscalingplans
+38210,    "examples/batch
+9610,    "examples/ca-certs
+50833,    "examples/cloudformation
+6820,    "examples/cloudwatch

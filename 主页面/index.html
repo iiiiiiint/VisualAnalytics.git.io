@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DataAnaly</title>
+    <script src="echarts.js"></script>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+    
+
+    <script type="text/javascript" src="function.js"></script>
+<form>
+    <div id="title">
+        <h1 style="color: white;"><center><b>Visual Analytics</b></center></h1><br/>
+    </div>
+</form>
+    <div id="menu">
+    <button type="button" class="button" id="button00" onclick="Home()" ><span>Home</span></button><br>
+    <button type="button" class="button" id="button3" onclick="showall()"><span>All-Relation</span></button><br>
+    <button type="button" class="button" id="button1" onclick="showInDegree()" ><span>InDegree</span></button><br>
+    <button type="button" class="button" id="button2" onclick="showOutDegree()"><span>OutDegree</span></button><br>
+    <a href="../副页面/39496/index.html" target="_blank"><button type="button" class="button" id="button5" onclick="show39496()" ><span>abxml-rs GeneratingTree</span></button></a><br>
+    <a href="../副页面/47265/index.html" target="_blank"><button type="button" class="button" id="button0" onclick="show47265()" ><span>async-io GeneratingTree</span></button></a><br>
+    <a href="../副页面/network/index.html" target="_blank"><button type="button" class="button" id="button4" onclick="TOP40()"><span>TOP40</span></button></a><br>
+    </div>
+    <div id="main" class="main" style="display: none;"></div>
+    <div id="word" >
+        <h1 id="word0"><strong>&emsp;&emsp;Introduction</strong></h1>
+        <h2 id="word1">&emsp;&emsp;&emsp;&emsp;&emsp;·All-Relation:</h2>
+        <p > &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;This section shows the dependencies of all of the nodes(databases for Rust).</p>
+        <h2 id="word1">&emsp;&emsp;&emsp;&emsp;&emsp;·InDegree:</h2>
+        <p>&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;This section shows the proportion of the nodes' in-degree value.</p>
+        <h2 id="word1">&emsp;&emsp;&emsp;&emsp;&emsp;·OutDegree:</h2>
+        <p> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;This section shows the proportion of the nodes' out-degree value.</p>
+        <h2 id="word1">&emsp;&emsp;&emsp;&emsp;&emsp;·async-io GeneratingTree:</h2>
+        <p> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;This section shows the spanning-tree of "async-io".</p>
+        <h2 id="word1">&emsp;&emsp;&emsp;&emsp;&emsp;·abxml-rs GeneratingTree:</h2>
+        <p> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;This section shows the spanning-tree of "abxml-rs".</p>
+        <h2 id="word1">&emsp;&emsp;&emsp;&emsp;&emsp;·async-io GeneratingTree:</h2>
+        <p>&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;This section shows the spanning-tree of "async-io".</p>
+        <h2 id="word1">&emsp;&emsp;&emsp;&emsp;&emsp;·TOP40:</h2>
+        <p> &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;We extract the intersection of the top100 most popular nodes and the most dependent nodes.</p>
+        <p>&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Their dependencies will be shown here.
+        </p>
+        <h2>&emsp;&emsp;&emsp;&emsp;&emsp;Click the buttons in menu to see more!</h2>
+    </div>
+    
+    <div id="image" class="image" style="display: none;">    
+        <h1 id="title2" style="display: none;">abxml-rs GeneratingTree</h1>
+        <h1 id="title3" style="display: none;">async-io GeneratingTree</h1>
+        <h1 id="title1" style="display: none;">Yifan Hu layout</h1>
+        <img src='../PNG/hothot.png' id="Img1" style='display:none;zoom: 67%;' ></img>  
+        <img src='../PNG/所有依赖关系.png' id="Img2" style='display:none;zoom: 67%;' ></img>
+        <img src='../PNG/39496.png' id="Img3" style='display:none;zoom: 80%;' ></img>
+        <img src='../PNG/47265.png' id="Img4" style='display:none;zoom: 67%;' ></img> 
+         
+    </div> 
+    
+</body>
+</html>
